@@ -33,18 +33,18 @@ layers:
   - X
   - Q
   - M
-  - W
+  - {t: W, h: NUMBER}
   - V
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - K
-  - F
+  - {t: F, h: NUMBER}
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - Gui+L
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
@@ -57,8 +57,8 @@ layers:
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '*'
-  - {t: '7', s: '&'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: /, s: '?'}
@@ -82,18 +82,18 @@ layers:
   - $$mdi:keyboard-esc$$
   - Ctl+Sft+V
   - Ctl+C
-  - Ctl+V
+  - {t: Ctl+V, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '=', s: +}
-  - '1'
+  - {t: '1', type: held}
   - '2'
   - '3'
   - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '0', s: )}
