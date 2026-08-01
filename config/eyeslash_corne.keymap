@@ -93,11 +93,11 @@
             bindings = <
 &kp TAB  &kp Z            &kp L            &kp D         &kp C         &kp B                                 &kp UP                &kp J    &kp Y               &kp O         &kp U             &kp SEMICOLON  &kp BSPC
 &td0     &HML LEFT_WIN N  &HML LEFT_ALT R  &HML LCTRL S  &HML LSHFT T  &kp G                       &kp LEFT  &kp ENTER  &kp RIGHT  &kp P    &HMR RIGHT_SHIFT H  &HMR RCTRL E  &HMR RIGHT_ALT A  &HMR RGUI I    &kp SQT
-&kp ESC  &kp X            &kp Q            &kp M         &kp W         &kp V          &kp SPACE              &kp DOWN              &kp K    &kp F               &kp COMMA     &kp DOT           &kp FSLH       &kp RG(L)
-                                           &kp DEL       &lt 1 ENTER   &kp BACKSPACE                                               &kp TAB  &lt 2 SPACE         &tog 3
+&kp ESC  &kp X            &kp Q            &kp M         &lt 1 W       &kp V          &kp SPACE              &kp DOWN              &kp K    &lt 4 F             &kp COMMA     &kp DOT           &kp FSLH       &kp RG(L)
+                                           &kp DEL       &kp ENTER     &kp BACKSPACE                                               &kp TAB  &lt 2 SPACE         &tog 3
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&scroll_encoder>, <&rsr_trans>;
         };
 
         NUMBER {
@@ -134,6 +134,18 @@
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
+        };
+
+        NAV {
+            display-name = "NUMBER";
+            bindings = <
+&trans  &none       &kp HOME        &kp UP_ARROW    &kp END          &none                                  &mmv MOVE_UP                     &none      &none         &kp N8        &kp N9        &kp SLASH   &kp BSPC
+&trans  &kp ENTER   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS   &none
+&trans  &kp ESCAPE  &kp LC(LS(V))   &kp LC(C)       &kp LC(V)        &none    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &none
+                                    &trans          &trans           &trans                                                                  &kp ENTER  &kp N0        &trans
+            >;
+
+            sensor-bindings = <&rsr_vol>, <&rsr_trans>;
         };
     };
 };
