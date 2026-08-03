@@ -13,7 +13,7 @@ layers:
   - O
   - U
   - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-caps$$
   - '&td0'
   - {t: N, h: LEFT WIN}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
