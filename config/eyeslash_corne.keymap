@@ -94,7 +94,7 @@
 &kp TAB  &kp Z            &kp L            &kp D         &kp C         &kp B                                 &kp UP                &kp J    &kp Y               &kp O         &kp U             &kp SEMICOLON  &kp BSPC
 &td0     &HML LEFT_WIN N  &HML LEFT_ALT R  &HML LCTRL S  &HML LSHFT T  &kp G                       &kp LEFT  &kp ENTER  &kp RIGHT  &kp P    &HMR RIGHT_SHIFT H  &HMR RCTRL E  &HMR RIGHT_ALT A  &HMR RGUI I    &kp SQT
 &kp ESC  &kp X            &kp Q            &kp M         &lt 1 W       &kp V          &kp SPACE              &kp DOWN              &kp K    &lt 4 F             &kp COMMA     &kp DOT           &kp FSLH       &kp RG(L)
-                                           &kp DEL       &kp ENTER     &kp BACKSPACE                                               &kp TAB  &lt 2 SPACE         &tog 3
+                                           &kp DEL       &lt 1 ENTER   &kp BACKSPACE                                               &kp TAB  &lt 2 SPACE         &tog 3
             >;
 
             sensor-bindings = <&scroll_encoder>, <&rsr_trans>;
