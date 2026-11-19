@@ -93,7 +93,7 @@
             bindings = <
 &kp DELETE     &kp Z        &kp L        &lt 2 D       &kp C         &kp B                              &kp UP                &kp J    &kp Y          &lt 2 O       &kp U        &kp SEMICOLON  &kp CAPSLOCK
 &kp BACKSPACE  &HML LGUI N  &HML LALT R  &HML LCTRL S  &HML LSHFT T  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp P    &HMR RSHIFT H  &HMR RCTRL E  &HMR RALT A  &HMR RGUI I    &kp SQT
-&kp ESC        &kp X        &kp Q        &kp M         &lt 1 W       &kp V       &kp SPACE              &kp DOWN              &kp K    &lt 1 F        &kp COMMA     &kp DOT      &kp FSLH       &tog 3
+&kp ESC        &kp X        &kp Q        &kp M         &lt 1 W       &kp V       &kp SPACE              &kp DOWN              &kp K    &lt 1 F        &kp COMMA     &kp DOT      &kp FSLH       &to 3
                                          &lt 1 ENTER   &lt 1 ENTER   &kp DELETE                                               &kp TAB  &kp SPACE      &kp SPACE
             >;
 
@@ -127,10 +127,10 @@
         GAME {
             display-name = "GAME";
             bindings = <
-&kp ESC  &kp Q  &kp W  &kp E      &kp R      &kp T                        &kp UP                &kp Y   &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB  &kp A  &kp S  &kp D      &kp F      &kp G              &kp LEFT  &kp ENTER  &kp RIGHT  &kp H   &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp P    &kp Z  &kp X  &kp C      &kp V      &kp B     &kp L              &kp DOWN              &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                       &kp LCTRL  &kp SPACE  &kp LALT                                           &tog 0  &mo 2  &kp RALT
+&kp ESC  &kp Q  &kp W  &kp E      &kp R      &kp T                        &kp UP                &kp Y  &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB  &kp A  &kp S  &kp D      &kp F      &kp G              &kp LEFT  &kp ENTER  &kp RIGHT  &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp P    &kp Z  &kp X  &kp C      &kp V      &kp B     &kp L              &kp DOWN              &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                       &kp LCTRL  &kp SPACE  &kp LALT                                           &to 0  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&rsr_vol>, <&rsr_trans>;
