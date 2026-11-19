@@ -94,7 +94,7 @@
 &kp DELETE     &kp Z        &kp L        &lt 2 D       &kp C         &kp B                              &kp UP                &kp J    &kp Y          &lt 2 O       &kp U        &kp SEMICOLON  &kp CAPSLOCK
 &kp BACKSPACE  &HML LGUI N  &HML LALT R  &HML LCTRL S  &HML LSHFT T  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp P    &HMR RSHIFT H  &HMR RCTRL E  &HMR RALT A  &HMR RGUI I    &kp SQT
 &kp ESC        &kp X        &kp Q        &kp M         &lt 1 W       &kp V       &kp SPACE              &kp DOWN              &kp K    &lt 1 F        &kp COMMA     &kp DOT      &kp FSLH       &tog 3
-                                         &kp ENTER     &kp ENTER     &kp DELETE                                               &kp TAB  &kp SPACE      &kp SPACE
+                                         &lt 1 ENTER   &lt 1 ENTER   &kp DELETE                                               &kp TAB  &kp SPACE      &kp SPACE
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
