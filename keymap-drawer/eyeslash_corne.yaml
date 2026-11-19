@@ -43,8 +43,8 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: GAME, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
@@ -92,8 +92,8 @@ layers:
   - '3'
   - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '0'
